@@ -1,0 +1,27 @@
+{
+  "name": "reminder-telegram-bot",
+  "version": "1.0.0",
+  "description": "This Telegram Bot facilitates setting and sending reminder from a MySQL database.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kKar1503/reminder-telegram-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kKar1503/reminder-telegram-bot/issues"
+  },
+  "homepage": "https://github.com/kKar1503/reminder-telegram-bot#readme",
+  "dependencies": {
+    "common-tags": "^1.8.2",
+    "dotenv": "^16.0.3",
+    "keyv": "^4.5.0",
+    "node-schedule": "^2.1.0",
+    "node-telegram-bot-api": "^0.59.0"
+  }
+}
